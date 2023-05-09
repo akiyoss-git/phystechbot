@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "phystechbot",
+  "private_key_id": "7523e7a1a1dcc3b395b18e4b8817283e9d24859f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDAgNo/BPRM/JXp\nFhAoBYoolwp5mRQ5r/cWq7sUwRDDgU1mYjnOm3vrh3+Hyv6vm07ZqIWDPQmmwsaC\n1+rw675rY3almyuHZWiinUNovHjyVwggqW4OEhTLvugYbQjHPCz1jX++S52hOFsd\nDtDYdYidDoGwc2ieNGHlJe+pogCbhIZdnuWNcyy49R5GSjUohyIBtxCtBYDuWidl\n6vTNEUBINom88yYjlG4qX1yerTmpGCybFxCoJufEp9qU9WRTonFBmEiC9J98iSLl\nml5vjNweD2UTlWdTYrprcNqkMLATMfEBzfgOTL/9Ce1mq39s5KnMWbZFgvXvKxLa\nTN62Sm7VAgMBAAECggEAUC4bOT52Bw753dDbv9+20PtAWK+C9hgt4Zp73MQhmFzm\nASwOidjHP637V3Mcq8YTjKMdoTEuMPBVwK/wYpK+iHowNAAynD2H3JuGNTyzX7US\nZJBNj7zGPqrwfyQDEQEmdMyQFZHnQPx5Ltw57r7dvRUKvZUEUUjeMZSgg1Y/zIYn\n1Nc4JNq6t2imZtGyfZtQxaQ1ScmYf1eq6xjV9MxhBNEwozdmyEdNbFsnDOWMd4gU\nJMrxzNq8sBdlqT7i6xsct/HgWR8PUdPlRU2ga+pv/VJdxlFBB/p94lMM0jXyoeyO\nHix54ItsodybH7rDNSUNei6w2bTDzHhoQaWEnjXoTQKBgQDyIOZWf94SlD9QCCpx\njEo9jLijWBFpc3VZXF4LyHTHb9AkUqOOKJpvlcR0w6efj+SRG553lUVg8vU09XO9\ny3BCW6jFh/FXpJCfjlVlmA8ucvTYd0B/xlIeteV0C9b+5xXRZUP4gqQ48eHCCQX5\nssqF+FB8Tpe1/HB7juorJWZElwKBgQDLiCQSbultNxtktDvUnD/CNTF+IOLaCKx1\nGtsRksPACy5/QhPakcd1HcRaoufg7qDW+fhJn1z3547S+Hky+PEgn7SE7mUodJiX\nNjFruwA8IJeK6CLnyIckYZJZRoRuOMAEw46CO3O8PBc7dxmzm0hShU2wFxJJeW2A\n9tUuGww5cwKBgEcCRwsPLP2d5IOAIZJzZkJuxqeA6HpYlg3C/QHPpA/pRs2gPr8u\nQTyAW8EysDInbQzxYKQJbvNjzW3enjcHNsD/SJvFpo3hgViJ0Zmd4rXomM3zC0Nt\n0h+XkNdbsY3ID6n9XNXA2pCov2C8bLgyKxrnHBOYqP2CLyrNWveUXE25AoGAGMkq\ng2goWxmD536fbqPci90IevCsT5sQzW4I0ZoK5p81+V9lpY9tN9D5MYR3Mog85BEq\n8GRM4Q+87+o8cD2qt6tbQ3j4rrWMQ5Xg7NqoC6p4af0dCxb7hi2vsdmJlRaqI6pg\n93EgBgNXXPGDGsFFTG9ZZ6FXo8T61eK5UVUP5wsCgYEAvyaabVMD4zZKb1p0Da3R\n6s8OqwyvH/LwKi8dLMNL0xNEqhYAbf6deYgpBd1I0p54vZ+OWlctbXwmiqh14YS5\nJAhBw7mqhTjTKM4wgmjH5qJotzLl0V9V6XRlxE+r5fMC9vs9/fdG98QPWeLYtbtF\ncxu/p7Jd1Y/iLxRshWnf7bk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "phystechbot@phystechbot.iam.gserviceaccount.com",
+  "client_id": "111855359089654010602",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/phystechbot%40phystechbot.iam.gserviceaccount.com"
+}
