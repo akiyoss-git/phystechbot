@@ -6,7 +6,9 @@ const Markup = require("node-vk-bot-api/lib/markup");
 const reg_sesson = require("./reg_session");
 const GoogleSheets = require("./google_sheets");
 
-const bot = new VkBot("d847617cb77669c9e9e4d4f1f3aaaa54139701198499251c1edd72a54f33697cb39f09ad63fe86b60ecaf");
+const bot = new VkBot(
+	"vk1.a.StpIeKj7_vtKEz8UoRks7jFYXlGLLnbDu8JI1Kh7OJkANJ-KKI0_R7PNWgyZLgbf_liQj6blkrDc_GhaPDdhhlwHjgIOnIZWZvsLWBA0ktloDuliJAlzjs5gQKvRIPcIIid9Oz1IdDHPjO4Gyk357LHul0-JrLJPVJ_Xs77QJfNmHfo-_jMxYDafZu4w7SoYV0l_w5khFgsRQ5G8u4kaZA"
+);
 
 bot.use(async (ctx, next) => {
 	try {
@@ -36,6 +38,14 @@ bot.command("/рассылка", async ctx => {
 		await bot.sendMessage(id, massMessage);
 	}
 	await ctx.reply("Рассылка успешно отправлена");
+});
+
+bot.on(async ctx => {
+	await ctx.reply("Ваш вопрос был направлен Администрации АЭС, они свяжутся с вами в ближайшее время!");
+	await bot.sendMessage(
+		174012255,
+		`Новый вопрос от vk.com/id${ctx.message.from_id}\n\n"${ctx.message.text}"\n\nЧтобы ответить перейдите в сообщения сообщества по ссылке https://vk.com/gim195315622`
+	);
 });
 
 bot.startPolling(err => {
