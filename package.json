@@ -1,0 +1,24 @@
+{
+  "name": "fiztech_reg_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "google-spreadsheet": "^3.3.0",
+    "node-vk-bot-api": "^3.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akiyoss-git/phystechbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akiyoss-git/phystechbot/issues"
+  },
+  "homepage": "https://github.com/akiyoss-git/phystechbot#readme"
+}
