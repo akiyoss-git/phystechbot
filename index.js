@@ -1,4 +1,5 @@
 const VkBot = require("node-vk-bot-api");
+
 const Session = require("node-vk-bot-api/lib/session");
 const Stage = require("node-vk-bot-api/lib/stage");
 const Markup = require("node-vk-bot-api/lib/markup");
@@ -35,7 +36,11 @@ bot.command("/рассылка", async ctx => {
 	const vk_ids = await sheets.getVKIds();
 	const massMessage = ctx.message.text.replace("/рассылка", "");
 	for (const id of vk_ids) {
-		await bot.sendMessage(id, massMessage);
+		try {
+			await bot.sendMessage(id, massMessage);
+		} catch (e) {
+			console.error(e);
+		}
 	}
 	await ctx.reply("Рассылка успешно отправлена");
 });
